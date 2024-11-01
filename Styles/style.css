@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 3fr auto;
+    gap: 20px;
+}
+
+.main-content {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-section {
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat de titel boven de sliders staat */
+    width: 200px; /* Vaste breedte voor de sectie */
+    background-color: rgb(200, 200, 200); /* Standaard achtergrondkleur van de sectie */
+    padding: 25px; /* Ruimte binnen de sectie */
+    margin-right: 0;
+    border-radius: 80px; /* Hoekafwerking voor esthetiek */
+    height: 100vh; /* Laat de sectie de volledige hoogte gebruiken */
+}
+
+.sliders {
+    display: flex;
+    flex-direction: column; /* Sliders onder elkaar */
+    margin-top: 20px; /* Ruimte boven de sliders */
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+img{
+    max-width: 30%;
+}
